@@ -1,4 +1,4 @@
-# 🎮 Games Hub 🕹️
+# 🎮 Games Hub (Under Development)🕹️
 
 > 🏆 PROYEK AKHIR LARAVEL WEB - PENGEMBANGAN APLIKASI WEB TI-B 🏆
 > 🏫 Universitas Brawijaya 🏫
@@ -192,3 +192,8 @@ Terima kasih telah menggunakan Games Hub!
 Mari bersama menciptakan komunitas gaming yang menyenangkan! 🌟
 
 #GameHub #Gaming #Indonesia #WebApp #Laravel
+
+## 📊 Wireframe Progress Status
+![Wireframe Progress Saat Ini!](https://i.ibb.co.com/4Vn5ZwP/Screenshot-2024-11-18-233815.png)
+
+
