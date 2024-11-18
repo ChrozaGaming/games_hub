@@ -94,7 +94,7 @@
    ```bash
    📁 Buka CMD/Terminal
    🚀 cd xampp/htdocs
-   📥 git clone https://github.com/your-repo/games-hub.git
+   📥 git clone https://github.com/ChrozaGaming/games_hub.git
    📂 cd games-hub
    ```
 
@@ -124,6 +124,8 @@
    ```bash
    🔄 php artisan migrate
    🌱 php artisan db:seed
+   ❗jika error menggunakan!:
+   💡php artisan migrate:fresh --seed
    ```
 
 8. **▶️ Jalankan Server ▶️**
