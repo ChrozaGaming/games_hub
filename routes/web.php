@@ -26,10 +26,6 @@ Route::post('/admin/login', [AdminController::class, 'login'])->name('admin.logi
 // Admin dashboard
 Route::middleware('auth:admin')->group(function () {
     Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
-    Route::get('/admin/add-game', [AdminController::class, 'addGamePage'])->name('admin.addGamePage');
     Route::post('/admin/add-game', [AdminController::class, 'addGame'])->name('admin.addGame');
-    Route::get('/admin/update-credits', [AdminController::class, 'updateUserCreditsPage'])->name('admin.updateUserCreditsPage');
     Route::post('/admin/update-credits', [AdminController::class, 'updateUserCredits'])->name('admin.updateUserCredits');
-    Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
-
 });
