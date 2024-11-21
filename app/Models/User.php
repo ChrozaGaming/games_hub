@@ -10,5 +10,6 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'credits', // Tambahkan credits di $fillable
     ];
 }
